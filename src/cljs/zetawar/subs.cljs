@@ -63,7 +63,7 @@
                             :in $ ?idx
                             :where
                             [?u :terrain/game-pos-idx ?idx]]
-                     (game/game-pos-idx game-eid' q r)))))
+                     idx))))
 
 (def terrain-pull [:terrain/q
                    :terrain/r
